@@ -384,11 +384,11 @@ h1.large {
 }
 .block-date-hero li {
     display: inline-block;
-    padding: 12px 0;
+    padding: 22px 0;
     width: 180px;
     color: #333030;
     font-family: 'Lato-Medium', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin-right: -4px;
 }
 .block-date-hero li:first-child {
