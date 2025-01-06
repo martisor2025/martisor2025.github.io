@@ -14,7 +14,7 @@
         <link href="./files/main.css" rel="stylesheet" type="text/css" media="all">
         <link href="./files/venobox.css" rel="stylesheet" type="text/css" media="all">
         <link href="./files/fonts.css" rel="stylesheet" type="text/css" media="all">
-        <link href="./files/css" rel="stylesheet">
+        <link href="./files/css.css" rel="stylesheet">
 
         <meta name="robots" content="noindex">
     
@@ -86,7 +86,7 @@
                                 </div>
                                 <ul>
                                     <li>Botez</li>
-                                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Martie, 2025</li>
+                                    <li>&nbsp;&nbsp;&nbsp;&nbsp;1 Martie, 2025</li>
                                 </ul>
                             </div>
                             <p class="mt-20 lead">Biserica Sfântul Mina, Constanța<br/>En Provance, Constanța</p>
@@ -322,7 +322,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="title mb-30" style="text-align: center">Confirmare</h1>
-                        <h2 class="heavy normal mb-30" style="text-align: center">Poți confirma participarea folosind formularul de mai jos.</h2>
+                        <h2 class="heavy normal mb-30" style="text-align: center">Poți confirma participarea folosind formularul de mai jos.<br/>Te rog să confirmi până pe <span style="color: #ee4444; font-size: 22px;">15.02.2025</span></h2>
                     </div>
                     <div class="col-lg-12">
                         <div class="block-registry" style="float: left;width: 100%;">
@@ -335,8 +335,8 @@
                                         <div class="row form-group">
                                             <div class="col-lg-12">
                                                 <div class="mb-5 personName">
-                                                    <label class="mb-5">Numele tău *</label>
-                                                    <input type="text" id="name" class="form-control" placeholder="Nume" name="name" required>
+                                                    <label for="name" class="mb-5">Numele tău *</label>
+                                                    <input type="text" id="name" class="form-control" placeholder="Nume" name="name" required autocomplete="name">
                                                     <div class="alert alert-danger" style="display: none">
                                                         <i class="icon-remove-sign"></i>Te rog să introduci numele
                                                     </div>
@@ -375,7 +375,7 @@
 
                                         <div class="row form-group">
                                             <div class="col-lg-12 partnerName" style="display:none">
-                                                <label class="mb-5">Numele celorlalți participanți * </label>
+                                                <label for="partner" class="mb-5">Numele celorlalți participanți * </label>
                                                 <input type="text" id="partner" class="form-control" placeholder="Participanți" name="partner">
                                                 <br>
                                                 <div class="alert alert-danger" style="display: none">
@@ -386,12 +386,12 @@
 
                                         <div class="row form-group">
                                             <div class="col-lg-6">
-                                                <label class="mb-5">Telefon</label>
+                                                <label for="telefon" class="mb-5">Telefon</label>
                                                 <input type="text" id="telefon" class="form-control" placeholder="telefon" name="telefon">
                                             </div>
                                             <div class="col-lg-6">
-                                                <label class="mb-5">Email</label>
-                                                <input type="text" id="email" class="form-control" placeholder="email" name="email">
+                                                <label for="email" class="mb-5">Email</label>
+                                                <input type="text" id="email" class="form-control" placeholder="email" name="email" autocomplete="email">
                                             </div>
                                         </div>
 
